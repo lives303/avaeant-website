@@ -115,8 +115,8 @@ h1 em { color: var(--coral); font-weight: 500; }
 .feature-points p { margin: 0; color: rgba(255,255,255,.78); }
 .feature-points strong { color: white; }
 
-.ritual-section { display: grid; grid-template-columns: .8fr 1.2fr; gap: 60px; align-items: center; }
-.ritual-copy { max-width: 520px; justify-self: end; }
+.ritual-section { display: grid; grid-template-columns: minmax(0, 760px); justify-content: center; align-items: center; }
+.ritual-copy { max-width: 760px; justify-self: center; text-align: center; }
 .ritual-copy > p:not(.eyebrow) { font-size: 18px; color: rgba(8,47,55,.68); }
 .button-secondary { border: 1px solid var(--ink); margin-top: 15px; }
 .button-secondary:hover { background: var(--ink); color: white; }
